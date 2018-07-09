@@ -16,9 +16,12 @@ class NoveItem(scrapy.Item):
 class Name(scrapy.Item):
     Name=scrapy.Field()
     Nurl=scrapy.Field()
+    nid=scrapy.Field()
     pass
 class Sec(scrapy.Item):
     Title=scrapy.Field()
     Surl=scrapy.Field()
+    nid=scrapy.Field()
+    sid=scrapy.Field()
     pass
 
